@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+    </header>
+    <main>
+        <section class="mensaje">
+           
+            <textarea class="text1" oninput="this.value = this.value.replace(/[^a-z]/,'')" name="texto" id="input-text" rows="10" cols="50">Ingrese texto aquí </textarea>
+            <p class="instruccion"> ¡Ingrese texto: Solo letras minúsculas y sin acentos!</p>       
+            <input type="button" class="boton" onclick="botonEncriptar()" value="Encriptar" />
+            <input type="button" class="boton" onclick="botonDesencriptar()" value="Desencriptar"/>
+             
+        </section>
+
+        <section class="resultado">
+            <textarea class="text2"  name="texto" rows="10" cols="50">Ningún mensaje fue encontrado</textarea>
+            <input type="button" class="boton" onclick="copiar()" value="Copiar"/>
+        </section> 
+    </main>
+    <footer>
+       <p class="pie"><a href="https://www.linkedin.com/in/rebeca-palacios-p/"><img src="Imagenes/linkedin.svg" alt="logoin"></a>Hecho por Rebeca Palacios en marzo de 2024<a href=https://github.com/RBKsc><img src="Imagenes/github-outline.svg" alt="logogit"></a></p>
+       
+    </footer>
+
+    
+<script src="app.js"></script>
+    
+</body>
+</html>

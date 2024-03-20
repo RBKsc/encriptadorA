@@ -1,0 +1,108 @@
+body{
+    background: #F3F5FC;
+}
+
+h1 {  
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#0A3871;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    padding-bottom: 20px;
+}
+
+.mensaje{
+    flex-wrap: wrap;
+    width:50%;
+    height: 100%;
+    margin:auto;
+}
+
+.text1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    height: 90%;
+    border: none;
+    font-family: sans-serif;
+    font-size:  30px;
+    color:#0A3871;
+    background:#F3F5FC;
+}
+
+.instruccion{
+    font-family: Inter;
+    font-size:20px;
+    color:#0A3871;
+    display: block;
+}
+
+.boton{
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+height: 50px;
+width: 200px;
+margin: 10px; 
+border-radius: 10px;
+color: #e0ebf0;
+background-color: #341de3;
+border-color:#261ddbdd ;
+cursor: pointer;
+}
+
+.resultado{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+    width: 30%;
+}
+
+.text2{
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 60%;
+    width: 70%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    border:none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align:center;
+}
+
+.pie{
+    font-family: Inter;
+    font-size:30px;
+    color:#0A3871;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+a img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
